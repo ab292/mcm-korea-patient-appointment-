@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Information - Korea General Hospital</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/information.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Emergency Banner -->
+    <div class="emergency-banner">
+        <div class="container">
+            <p><i class="fas fa-phone-alt"></i> Emergency: <strong>911</strong> | 24/7 Hotline: <strong>+251-11-629-3500</strong></p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">🏥</div>
+                <div class="logo-text">
+                    <h1>Korea General Hospital</h1>
+                    <p>Addis Ababa, Gerji</p>
+                </div>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="services.html"><i class="fas fa-stethoscope"></i> Services</a></li>
+                <li><a href="information.html" class="active"><i class="fas fa-info"></i> Information</a></li>
+                <li><a href="contact.html"><i class="fas fa-address-book"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Information Hero -->
+        <section class="info-hero">
+            <div class="container">
+                <h1>Patient Information Guide</h1>
+                <p>Everything you need to know before, during, and after your visit</p>
+            </div>
+        </section>
+
+        <!-- Information Navigation -->
+        <section class="info-navigation">
+            <div class="container">
+                <div class="info-nav">
+                    <a href="#patient-guide" class="info-nav-link active">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Patient Guide</span>
+                    </a>
+                    <a href="#visiting-hours" class="info-nav-link">
+                        <i class="fas fa-clock"></i>
+                        <span>Visiting Hours</span>
+                    </a>
+                    <a href="#insurance" class="info-nav-link">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Insurance & Billing</span>
+                    </a>
+                    <a href="#faq" class="info-nav-link">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQ</span>
+                    </a>
+                    <a href="#health-tips" class="info-nav-link">
+                        <i class="fas fa-heart"></i>
+                        <span>Health Tips</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Patient Guide -->
+        <section id="patient-guide" class="info-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2><i class="fas fa-map-signs"></i> Complete Patient Guide</h2>
+                    <p>Step-by-step guide for your hospital visit</p>
+                </div>
+
+                <div class="guide-timeline">
+                    <!-- Before Visit -->
+                    <div class="timeline-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Before Your Visit</h3>
+                            <div class="step-details">
+                                <div class="what-to-bring">
+                                    <h4><i class="fas fa-suitcase"></i> What to Bring:</h4>
+                                    <ul class="checklist">
+                                        <li><i class="fas fa-check-circle"></i> <strong>Valid ID:</strong> Passport, Driver's License, National ID, or Kebele ID</li>
+                                        <li><i class="fas fa-check-circle"></i> <strong>Insurance Documents:</strong> Card and policy papers</li>
+                                        <li><i class="fas fa-check-circle"></i> <strong>Medical Records:</strong> Previous reports and test results</li>
+                                        <li><i class="fas fa-check-circle"></i> <strong>Medication List:</strong> Current medicines with dosages</li>
+                                        <li><i class="fas fa-check-circle"></i> <strong>Referral Letter:</strong> If referred by another doctor</li>
+                                        <li><i class="fas fa-check-circle"></i> <strong>Emergency Contact:</strong> Phone numbers of family members</li>
+                                        <li><i class="fas fa-check-circle"></i> <strong>Payment Method:</strong> Cash, card, or mobile money</li>
+                                    </ul>
+                                </div>
+
+                                <div class="preparation-tips">
+                                    <h4><i class="fas fa-lightbulb"></i> Preparation Tips:</h4>
+                                    <div class="tips-grid">
+                                        <div class="tip-card">
+                                            <i class="fas fa-calendar-check"></i>
+                                            <h5>Confirm Appointment</h5>
+                                            <p>Call 24 hours before to confirm</p>
+                                        </div>
+                                        <div class="tip-card">
+                                            <i class="fas fa-utensils"></i>
+                                            <h5>Fasting Instructions</h5>
+                                            <p>Follow if required for tests</p>
+                                        </div>
+                                        <div class="tip-card">
+                                            <i class="fas fa-clock"></i>
+                                            <h5>Arrive Early</h5>
+                                            <p>30 minutes before scheduled time</p>
+                                        </div>
+                                        <div class="tip-card">
+                                            <i class="fas fa-mask"></i>
+                                            <h5>Face Mask</h5>
+                                            <p>Required for infection control</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- During Visit -->
+                    <div class="timeline-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>During Your Visit</h3>
+                            <div class="step-details">
+                                <div class="process-flow">
+                                    <div class="process-step">
+                                        <div class="process-icon">①</div>
+                                        <div class="process-text">
+                                            <h5>Check-in at Reception</h5>
+                                            <p>Present your ID and appointment confirmation. Receive patient wristband.</p>
+                                        </div>
+                                    </div>
+                                    <div class="process-step">
+                                        <div class="process-icon">②</div>
+                                        <div class="process-text">
+                                            <h5>Vital Signs Check</h5>
+                                            <p>Nurses check blood pressure, temperature, and pulse in triage area.</p>
+                                        </div>
+                                    </div>
+                                    <div class="process-step">
+                                        <div class="process-icon">③</div>
+                                        <div class="process-text">
+                                            <h5>Doctor Consultation</h5>
+                                            <p>Meet your doctor for examination and treatment planning.</p>
+                                        </div>
+                                    </div>
+                                    <div class="process-step">
+                                        <div class="process-icon">④</div>
+                                        <div class="process-text">
+                                            <h5>Tests & Pharmacy</h5>
+                                            <p>Proceed to lab/imaging if needed. Collect medications from pharmacy.</p>
+                                        </div>
+                                    </div>
+                                    <div class="process-step">
+                                        <div class="process-icon">⑤</div>
+                                        <div class="process-text">
+                                            <h5>Billing & Discharge</h5>
+                                            <p>Complete payment. Receive discharge instructions and follow-up details.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="hospital-facilities">
+                                    <h4><i class="fas fa-map-marked-alt"></i> Hospital Floor Map</h4>
+                                    <div class="facilities-grid">
+                                        <div class="facility-floor">
+                                            <h5>Ground Floor</h5>
+                                            <ul>
+                                                <li>• Reception & Registration</li>
+                                                <li>• Emergency Department</li>
+                                                <li>• Pharmacy</li>
+                                                <li>• Billing & Insurance</li>
+                                                <li>• Cafeteria</li>
+                                            </ul>
+                                        </div>
+                                        <div class="facility-floor">
+                                            <h5>First Floor</h5>
+                                            <ul>
+                                                <li>• Consultation Rooms</li>
+                                                <li>• Laboratory</li>
+                                                <li>• Radiology Department</li>
+                                                <li>• Administration</li>
+                                            </ul>
+                                        </div>
+                                        <div class="facility-floor">
+                                            <h5>Second Floor</h5>
+                                            <ul>
+                                                <li>• Operating Theaters</li>
+                                                <li>• Day Care Unit</li>
+                                                <li>• Endoscopy Suite</li>
+                                            </ul>
+                                        </div>
+                                        <div class="facility-floor">
+                                            <h5>Third Floor</h5>
+                                            <ul>
+                                                <li>• Inpatient Wards</li>
+                                                <li>• ICU & CCU</li>
+                                                <li>• Maternity Ward</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- After Visit -->
+                    <div class="timeline-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>After Your Visit</h3>
+                            <div class="step-details">
+                                <div class="after-care-grid">
+                                    <div class="care-instructions">
+                                        <h4><i class="fas fa-file-medical-alt"></i> Follow-up Instructions</h4>
+                                        <ul class="instruction-list">
+                                            <li><i class="fas fa-pills"></i> <strong>Medications:</strong> Take as prescribed exactly</li>
+                                            <li><i class="fas fa-calendar-alt"></i> <strong>Appointments:</strong> Schedule follow-ups if needed</li>
+                                            <li><i class="fas fa-file-medical"></i> <strong>Test Results:</strong> Collect within 24-48 hours</li>
+                                            <li><i class="fas fa-phone"></i> <strong>Emergency Contact:</strong> Call if symptoms worsen</li>
+                                            <li><i class="fas fa-utensils"></i> <strong>Diet:</strong> Follow dietary recommendations</li>
+                                            <li><i class="fas fa-bed"></i> <strong>Rest:</strong> Get adequate rest as advised</li>
+                                        </ul>
+
+                                        <div class="medication-reminder">
+                                            <h5><i class="fas fa-bell"></i> Free Medication Reminders</h5>
+                                            <p>Get SMS reminders for your medications:</p>
+                                            <form class="reminder-form">
+                                                <input type="tel" placeholder="+251 XXX XXX XXX" required>
+                                                <button type="submit">Subscribe</button>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div class="patient-feedback">
+                                        <div class="feedback-box">
+                                            <h4><i class="fas fa-comment-medical"></i> We Value Your Feedback</h4>
+                                            <p>Help us improve by sharing your experience:</p>
+                                            
+                                            <div class="feedback-actions">
+                                                <a href="contact.html" class="feedback-btn">
+                                                    <i class="fas fa-edit"></i>
+                                                    <span>Submit Online Feedback</span>
+                                                </a>
+                                                <a href="tel:+251116293599" class="feedback-btn phone">
+                                                    <i class="fas fa-phone"></i>
+                                                    <span>Call Feedback Hotline</span>
+                                                </a>
+                                                <a href="#" class="feedback-btn survey">
+                                                    <i class="fas fa-clipboard-check"></i>
+                                                    <span>Patient Satisfaction Survey</span>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="share-story">
+                                            <h5><i class="fas fa-share-alt"></i> Share Your Recovery Story</h5>
+                                            <p>Inspire others by sharing your positive experience at Korea General Hospital.</p>
+                                            <a href="#" class="story-btn">Share Your Story →</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visiting Hours -->
+        <section id="visiting-hours" class="info-section hours-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2><i class="fas fa-clock"></i> Visiting Hours & Policies</h2>
+                </div>
+
+                <div class="hours-container">
+                    <div class="hours-grid">
+                        <div class="hours-card">
+                            <div class="card-header">
+                                <i class="fas fa-user-injured"></i>
+                                <h4>General Inpatient Wards</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="schedule">
+                                    <div class="schedule-item">
+                                        <span class="day">Monday - Friday</span>
+                                        <div class="times">
+                                            <span class="time">2:00 PM - 4:00 PM</span>
+                                            <span class="time">6:00 PM - 8:00 PM</span>
+                                        </div>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <span class="day">Weekends & Holidays</span>
+                                        <div class="times">
+                                            <span class="time">10:00 AM - 12:00 PM</span>
+                                            <span class="time">3:00 PM - 6:00 PM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <p><i class="fas fa-info-circle"></i> Maximum 2 visitors per patient</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hours-card">
+                            <div class="card-header">
+                                <i class="fas fa-procedures"></i>
+                                <h4>ICU & Critical Care Units</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="schedule">
+                                    <div class="schedule-item">
+                                        <span class="day">Daily</span>
+                                        <div class="times">
+                                            <span class="time">11:00 AM - 11:30 AM</span>
+                                            <span class="time">5:00 PM - 5:30 PM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <p><i class="fas fa-info-circle"></i> Immediate family only</p>
+                                    <p><i class="fas fa-info-circle"></i> Children under 12 not permitted</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hours-card">
+                            <div class="card-header">
+                                <i class="fas fa-baby"></i>
+                                <h4>Maternity Ward</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="schedule">
+                                    <div class="schedule-item">
+                                        <span class="day">Daily</span>
+                                        <div class="times">
+                                            <span class="time">10:00 AM - 8:00 PM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <p><i class="fas fa-info-circle"></i> Husband/partner: 24 hours access</p>
+                                    <p><i class="fas fa-info-circle"></i> Siblings allowed during visiting hours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="visiting-policies">
+                        <h3>Important Visiting Policies</h3>
+                        <div class="policies-grid">
+                            <div class="policy-item">
+                                <i class="fas fa-ban"></i>
+                                <p>No visiting during doctor rounds (7-9 AM & 4-6 PM)</p>
+                            </div>
+                            <div class="policy-item">
+                                <i class="fas fa-mask"></i>
+                                <p>Face masks mandatory at all times</p>
+                            </div>
+                            <div class="policy-item">
+                                <i class="fas fa-hand-sparkles"></i>
+                                <p>Hand sanitization required before entry</p>
+                            </div>
+                            <div class="policy-item">
+                                <i class="fas fa-volume-mute"></i>
+                                <p>Maintain quiet environment - no loud conversations</p>
+                            </div>
+                            <div class="policy-item">
+                                <i class="fas fa-smoking-ban"></i>
+                                <p>Strict no smoking policy throughout hospital</p>
+                            </div>
+                            <div class="policy-item">
+                                <i class="fas fa-camera"></i>
+                                <p>No photography/videography without permission</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Insurance & Billing -->
+        <section id="insurance" class="info-section insurance-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2><i class="fas fa-file-invoice-dollar"></i> Insurance & Billing Information</h2>
+                </div>
+
+                <div class="insurance-content">
+                    <div class="insurance-section-left">
+                        <h3>Accepted Insurance Providers</h3>
+                        <div class="insurance-logos">
+                            <div class="insurance-logo">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Ethio Insurance</span>
+                            </div>
+                            <div class="insurance-logo">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Nyala Insurance</span>
+                            </div>
+                            <div class="insurance-logo">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Awash Insurance</span>
+                            </div>
+                            <div class="insurance-logo">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>United Insurance</span>
+                            </div>
+                            <div class="insurance-logo">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>National Health Insurance</span>
+                            </div>
+                            <div class="insurance-logo">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Global Insurance</span>
+                            </div>
+                        </div>
+                        
+                        <div class="insurance-process">
+                            <h4>Insurance Claim Process:</h4>
+                            <ol>
+                                <li>Present valid insurance card at registration</li>
+                                <li>Provide necessary authorization forms</li>
+                                <li>Pay any applicable co-payments or deductibles</li>
+                                <li>We handle direct billing with your insurance company</li>
+                                <li>Receive statement for any remaining balance</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="insurance-section-right">
+                        <h3>Payment Methods Accepted</h3>
+                        <div class="payment-methods">
+                            <div class="payment-method">
+                                <i class="fas fa-money-bill-wave"></i>
+                                <h5>Cash</h5>
+                                <p>ETB & USD Accepted</p>
+                            </div>
+                            <div class="payment-method">
+                                <i class="fas fa-credit-card"></i>
+                                <h5>Credit/Debit Cards</h5>
+                                <p>Visa, MasterCard, UnionPay</p>
+                            </div>
+                            <div class="payment-method">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h5>Mobile Money</h5>
+                                <p>Telebirr, CBE Birr, M-Birr</p>
+                            </div>
+                            <div class="payment-method">
+                                <i class="fas fa-university"></i>
+                                <h5>Bank Transfer</h5>
+                                <p>All major Ethiopian banks</p>
+                            </div>
+                        </div>
+
+                        <div class="billing-info">
+                            <h4>Billing Inquiries:</h4>
+                            <div class="contact-details">
+                                <p><i class="fas fa-phone"></i> <strong>Billing Department:</strong> +251-11-629-3501</p>
+                                <p><i class="fas fa-envelope"></i> <strong>Email:</strong> billing@koreahospital-gerji.et</p>
+                                <p><i class="fas fa-clock"></i> <strong>Hours:</strong> Monday-Friday, 8:00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Health Tips -->
+        <section id="health-tips" class="info-section health-tips-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2><i class="fas fa-heart"></i> Health Tips & Wellness</h2>
+                </div>
+
+                <div class="health-tips-grid">
+                    <article class="health-tip">
+                        <div class="tip-image">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="tip-content">
+                            <h3>Preventing Hypertension</h3>
+                            <p>Learn simple lifestyle changes to maintain healthy blood pressure levels and reduce cardiovascular risks.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <article class="health-tip">
+                        <div class="tip-image">
+                            <i class="fas fa-apple-alt"></i>
+                        </div>
+                        <div class="tip-content">
+                            <h3>Healthy Eating Guide</h3>
+                            <p>Nutrition tips for Ethiopian diets to maintain optimal health and prevent lifestyle diseases.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+
+                    <article class="health-tip">
+                        <div class="tip-image">
+                            <i class="fas fa-walking"></i>
+                        </div>
+                        <div class="tip-content">
+                            <h3>Exercise for All Ages</h3>
+                            <p>Safe and effective exercise routines suitable for different age groups and fitness levels.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="health-resources">
+                    <h3>Downloadable Resources</h3>
+                    <div class="resources-list">
+                        <a href="#" class="resource-link">
+                            <i class="fas fa-file-pdf"></i>
+                            <div class="resource-info">
+                                <strong>Patient Rights & Responsibilities</strong>
+                                <span>PDF • 250KB</span>
+                            </div>
+                        </a>
+                        <a href="#" class="resource-link">
+                            <i class="fas fa-file-pdf"></i>
+                            <div class="resource-info">
+                                <strong>Medication Guide (Amharic)</strong>
+                                <span>PDF • 150KB</span>
+                            </div>
+                        </a>
+                        <a href="#" class="resource-link">
+                            <i class="fas fa-file-pdf"></i>
+                            <div class="resource-info">
+                                <strong>Diabetes Management Handbook</strong>
+                                <span>PDF • 350KB</span>
+                            </div>
+                        </a>
+                        <a href="#" class="resource-link">
+                            <i class="fas fa-file-pdf"></i>
+                            <div class="resource-info">
+                                <strong>Child Vaccination Schedule</strong>
+                                <span>PDF • 200KB</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-section">
+                <h3>Korea General Hospital</h3>
+                <p>Providing advanced medical care with compassion in the heart of Addis Ababa, Gerji.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="information.html">Patient Information</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Gerji, Addis Ababa, Ethiopia</p>
+                <p><i class="fas fa-phone"></i> +251-11-629-3500</p>
+                <p><i class="fas fa-envelope"></i> info@koreahospital-gerji.et</p>
+                <p><i class="fas fa-clock"></i> Open 24/7</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Emergency Contacts</h4>
+                <p><strong>Emergency:</strong> 911</p>
+                <p><strong>Ambulance:</strong> +251-91-123-4567</p>
+                <p><strong>Quick Appointment:</strong> +251-11-629-3501</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Korea General Hospital, Addis Ababa. All Rights Reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Sitemap</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/information.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+TODO (Before Submission):
+- remove /screenshots, Dockerfile, docker-compose.yml and this notes.txt
